@@ -7,6 +7,6 @@ var btn = document.getElementById("submit-btn")
 
 
 const send = ()=>{
-    mail.action = `mailto:calebeffiom@gmail.com?subject=Enquires&body=Name:%20${names.value}%0d%0a%0d%0aEmail:%20${email.value}%0d%0a%0d%0aPhonenumber:%20${phonenumber.value}%0d%0a%0d%0aMessage:%20${message.value}`;
+    mail.action = `mailto:calebeffiom974@gmail.com?subject=Enquires`;
 }
 btn.addEventListener("click",()=>{send()})
