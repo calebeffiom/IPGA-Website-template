@@ -7,6 +7,6 @@ var mail = document.getElementById("submit");
 
 const send = ()=>{
     
-    mail.href = `mailto:calebeffiom@gmail.com?subject=Enquires&body=Name: ${names.value}%0d%0aEmail: ${email.value}%0d%0aPhonenumber:${phonenumber.value}%0d%0aMessage: ${message.value}%0d%0a`;
+    mail.href = `mailto:calebeffiom@gmail.com?subject=Enquires&body=Name:${names.value}%0d%0aEmail:${email.value}%0d%0aPhonenumber:${phonenumber.value}%0d%0aMessage:${message.value}`;
 }
 mail.addEventListener("click",()=>{send()})
