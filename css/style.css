@@ -598,6 +598,21 @@ a:focus {
 .contact_section .contact-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
+.contact_section .contact-form .input_message::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contact_section .contact-form .input_message:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contact_section .contact-form .input_message::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contact_section .contact-form .input_message::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
 
 .contact_section .contact-form a {
   border: none;
